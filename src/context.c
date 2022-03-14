@@ -637,7 +637,7 @@ GLFWAPI GLFWwindow* glfwGetCurrentContext(void)
 }
 
 GLFWAPI void glfwSwapBuffers(GLFWwindow* handle)
-{
+{           
     _GLFWwindow* window = (_GLFWwindow*) handle;
     assert(window != NULL);
 
